@@ -1,6 +1,6 @@
 # Angular to Android APK
 
-Test Project to convert Angular Webapp into Android APK with Cordova.
+Development project to convert existing angular webapplication into android APK with cordova.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
 Other Specs:<br>
@@ -8,11 +8,19 @@ Node: 10.15.0<br>
 OS: darwin x64<br>
 Angular: 7.2.4<br>
 
+## How to?
+
+If you want to convert your existing angular application into an android APK wrapped by cordova then checkout our tutorial:<br><br>
+English version: link<br>
+German version: link
+
+This development project and tutorial is made with ❤ by [Liechtenecker Lab & Studio](https://liechtenecker.at)
+
 ## Setup Project
 
-`npm i` to install node_modules
+`npm i` to install all packages
 
-`cordova add platfrom android` to add android to cordova platform
+`cordova add platfrom android` to add android as platform
 
 ## Development server
 
@@ -26,9 +34,13 @@ Run `cordova build android` to build cordova project
 
 Make sure your virutal device is turned on and run `cordova emulate android`
 
-Now your android APK should start in your android virtual device
+Now your android APK should start on your android virtual device
 
 ## Build signed APK for release
 
-For building your APK to run on your real device (or launch in play store) read my full tutorial on medium.com (here)
+For building your APK to run on your real device (or launch in play store) read our full tutorial on medium.com (here)
+
+## We love the web
+
+Take a look at [our website](https://liechtenecker.at). We would be very happy to hear from you. 
 
