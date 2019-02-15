@@ -1,0 +1,64 @@
+.viewport {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 50px);
+    background: #e30040;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.headline {
+    color: #0C0A28;
+    font-size: 95px;
+    line-height: 1.1;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 400px;
+    color: #0C0A28;
+    font-size: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #0C0A28;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.let-me-serve-you {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 350px;
+    animation: pewds 2s infinite cubic-bezier(0.4, 0, 0.4, 1);
+
+    &__bitch-lasagna {
+        height: 350px;
+    }
+}
+
+@keyframes pewds {
+    0% {
+        transform: translateX(-50%);
+    }
+    70% {
+        transform: translateX(-50%);
+    }
+    85% {
+        transform: translateX(-50%) scale(1.1);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

@@ -1,27 +1,34 @@
-# HelloAppWorld
+# Angular to Android APK
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+Test Project to convert Angular Webapp into Android APK with Cordova.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+Other Specs:<br>
+Node: 10.15.0<br>
+OS: darwin x64<br>
+Angular: 7.2.4<br>
+
+## Setup Project
+
+`npm i` to install node_modules
+
+`cordova add platfrom android` to add android to cordova platform
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the /src source files.
 
-## Code scaffolding
+## Build APK
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng build --prod --aot` to build the project.
 
-## Build
+Run `cordova build android` to build cordova project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Make sure your virutal device is turned on and run `cordova emulate android`
 
-## Running unit tests
+Now your android APK should start in your android virtual device
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Build signed APK for release
 
-## Running end-to-end tests
+For building your APK to run on your real device (or launch in play store) read my full tutorial on medium.com (here)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
