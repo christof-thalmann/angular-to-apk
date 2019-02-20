@@ -11,7 +11,7 @@ Angular: 7.2.4<br>
 ## How to?
 
 If you want to convert your existing angular application into an android APK wrapped by cordova then checkout our tutorial:<br><br>
-English version (Link coming soon)<br>
+[English version](https://medium.com/@christof.thalmann/convert-angular-project-to-android-apk-in-10-steps-c49e2fddd29)<br>
 [German version](https://liechtenecker.at/angular-zu-android-apk-in-10-schritten/)
 
 This development project and tutorial is made with ❤ by [Liechtenecker Lab & Studio](https://liechtenecker.at)
@@ -38,7 +38,7 @@ Now your android APK should start on your android virtual device
 
 ## Build signed APK for release
 
-For building your APK to run on your real device (or launch in play store) read our full tutorial on medium.com (link coming soon)
+For building your APK to run on your real device read our full tutorial on [medium.com](https://medium.com/@christof.thalmann/convert-angular-project-to-android-apk-in-10-steps-c49e2fddd29)
 
 ## We love the web
 
